@@ -1,0 +1,79 @@
+.con {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: #fff;
+  font-family: STKaiti, KaiTi, "Microsoft YaHei", 微软雅黑, Arial, sans-serif;
+  align-items: center;
+}
+
+.poemborder {
+  margin-top: 20rpx;
+  padding-top: 10rpx;
+  padding-bottom: 10rpx;
+  display: flex;
+  flex-direction: column;
+  font-size: 30rpx;
+  background-color: #fff;
+  height: 90%;
+  width: 80%;
+  -moz-box-shadow: 2px 2px 8px #333;
+  -webkit-box-shadow: 2px 2px 8px #333;
+  box-shadow: 2px 2px 8px #333;
+  border-radius: 10rpx;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  color: transparent;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  color: #bb1c33;
+  font-size: 60rpx;
+  margin-top: 30rpx;
+}
+
+.author {
+  display: flex;
+  justify-content: center;
+  color: #ccc;
+  font-size: 36rpx;
+  margin-top: 20rpx;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  margin-top: 20rpx;
+  line-height: 60rpx;
+  letter-spacing: 8rpx;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.poetry{
+  position: fixed;
+  left: 0;
+  bottom: 50rpx;
+  background-color: #585756;
+  opacity: 0.4;
+  border-radius: 0 20rpx 20rpx 0;
+  padding: 20rpx 40rpx 20rpx 40rpx;
+  color: #fff;
+
+  
+}
+.poem{
+  position: fixed;
+  right: 0;
+  bottom: 50rpx;
+  background-color: #585756;
+  opacity: 0.4;
+  border-radius: 20rpx 0 0 20rpx;
+  padding: 20rpx 40rpx 20rpx 40rpx;
+  color: #fff
+}

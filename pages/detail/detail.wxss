@@ -1,0 +1,17 @@
+@import "../recommend/recommend.wxss";
+
+.con{
+  background-color: #e7e5d0!important;
+  color: #643441;
+}
+
+.error{
+  position: fixed;
+  right: 0;
+  bottom: 50rpx;
+  background-color: #585756;
+  opacity: 0.4;
+  border-radius: 20rpx 0 0 20rpx;
+  padding: 20rpx;
+  color: #fff
+}

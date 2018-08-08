@@ -1,0 +1,12 @@
+.con{
+  display: flex;
+  flex-direction: column;
+  font-family: STKaiti, KaiTi, "Microsoft YaHei", 微软雅黑, Arial, sans-serif;
+  justify-content: center;
+  align-items: center;
+}
+
+.txt{
+  display: flex;
+  font-size: 80rpx;
+}

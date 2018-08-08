@@ -1,0 +1,10 @@
+<scroll-view scroll-y class="con" style='background-image: url(../../image/bg.png)'>
+  <text class='title'>{{data.title}}</text>
+  <text class='author'>{{data.author}}</text>
+  <text class='content'>{{data.content}}</text>
+</scroll-view>
+
+
+<view class='poetry' bindtap='topoetry'>诗</view>
+
+<view class='poem' bindtap='topoem'>词</view>

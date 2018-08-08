@@ -1,0 +1,12 @@
+
+  <view class='list_con'>
+    <block wx:for="{{list}}" wx:for-index="idx" wx:for-item="item" wx:key="id">
+      <view class='list_item' bindtap='toDetail' data-id="{{item.id}}" >
+        <view>
+          <text class='title'>{{item.content}}</text>
+
+        </view>
+        <text class='content'>{{item.pId.title+"  "+item.pId.author+'   '+item.pId.content}}</text>
+      </view>
+    </block>
+  </view>

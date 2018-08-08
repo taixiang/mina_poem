@@ -1,0 +1,10 @@
+var convert = function(str){
+  return str.replace("\n","")
+}
+var convertEnter = function (str) {
+  return str.replace("|", "\n")
+}
+module.exports = {
+  convert : convert,
+  convertEnter : convertEnter
+}

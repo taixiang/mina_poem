@@ -1,0 +1,16 @@
+ <wxs src="./detail.wxs" module="detailwxs" /> 
+
+
+<scroll-view scroll-y	 class="con" style='background-image: url(../../image/bg.png)'>
+  <text class='title'>{{detail.title}}</text>
+  <text class='author'>{{detail.author}}</text>
+  <text class='content'>{{detail.content}}</text>
+
+
+</scroll-view>
+
+<modal hidden="{{hiddenmodalput}}"  confirm-text="提交" cancel-text="取消" bindcancel="cancel" bindconfirm="confirm">  
+    <textarea type='text' bindinput='bindKeyInput' placeholder="请描述错误内容" value='{{initVal}}'/>  
+</modal>  
+
+<view class='error' bindtap='showError'>纠错</view>

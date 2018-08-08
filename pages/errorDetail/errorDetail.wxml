@@ -1,0 +1,9 @@
+<view class='con'>
+  <text class='content'>{{detail.content}}</text>
+  <view class='poem'>
+    <text>{{detail.pId.title}}</text>
+    <text>{{detail.pId.author}}</text>
+    <text>{{detail.pId.content}}</text>
+
+  </view>
+</view>

@@ -1,0 +1,26 @@
+<wxs src="./poem.wxs" module="poem" />
+
+<view class='con'>
+  <view class='search_con'> 
+    <input class='search' bindinput="bindKeyInput" placeholder="请输入诗词名/作者/诗句搜索" />
+
+    <text class='search_txt' bindtap='search'>搜索</text>
+  </view>
+  
+  <view class='list_con'>
+    <block wx:for="{{list}}" wx:for-index="idx" wx:for-item="item" wx:key="id">
+      <view class='list_item' bindtap='toDetail' data-id="{{item.id}}" >
+        <view>
+          <text class='title'>{{item.title}}</text>
+          <text class='author'>{{item.author}}</text>
+        </view>
+        <text class='content'>{{poem.convert(item.content)}}</text>
+      </view>
+    </block>
+  </view>
+
+
+</view>
+<view class='bottom'>
+  <text>{{loadingTxt}}</text>
+</view>

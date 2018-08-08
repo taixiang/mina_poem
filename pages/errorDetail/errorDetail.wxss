@@ -1,0 +1,16 @@
+.con{
+  padding: 10px;
+  display: flex;
+  flex-direction: column
+}
+.content{
+  border-bottom:1px dashed #555555;
+  padding-bottom: 15px
+}
+.poem{
+  display: flex;
+  flex-direction: column;
+  font-size: 28rpx;
+  margin-top: 20px;
+  color: gray
+}

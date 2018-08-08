@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/recommend/recommend",
+    "pages/home/home",
+    "pages/me/me",
+    "pages/poem/poem",
+    "pages/detail/detail",
+    "pages/myerror/myerror",
+    "pages/errorDetail/errorDetail",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "唐宋来喽",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#808080",
+    "selectedColor": "#bb1c33",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/recommend/recommend",
+        "text": "主页",
+        "iconPath": "./image/home.png",
+        "selectedIconPath": "./image/home_selected.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的",
+        "iconPath": "./image/me.png",
+        "selectedIconPath": "./image/me_selected.png"
+      }
+    ]
+  }
+}

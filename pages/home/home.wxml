@@ -1,0 +1,6 @@
+<view class='con'>
+
+<text class='txt' bindtap='topoetry'>诗</text>
+
+<text class='txt' bindtap='topoem'>词</text>
+</view>
